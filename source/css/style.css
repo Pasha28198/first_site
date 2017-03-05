@@ -1,0 +1,808 @@
+/*-------------------------
+--------FONTS START-----
+-----------------------*/
+@font-face{
+    font-family: PTSans Narrow;
+    src:url('../font/PTSans Narrow.ttf');
+}
+@font-face{
+    font-family:PTSans Narrow bold ;
+    src:url('../font/PTSans Narrow bold.ttf');
+}
+
+/*-------------------------
+--------FONTS END-----
+-----------------------*/
+/*-------------------------
+--------MOBILE FITST
+START-----
+-----------------------*/
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+body{
+    margin:0 auto;
+    max-width:1200px;
+    font-family: PTSans Narrow;
+
+}
+img{
+    border:2px #6b4e36 solid;
+}
+/*-----------------------------
+----------------------------
+----HEADER START--------------
+-------------------------
+-----------------------*/
+header  p {
+    margin:25px auto;
+    text-align:center;
+    font-family:PTSans Narrow bold;
+
+}
+header li a{
+    display: block;
+    font-size: 20px;
+}
+header span{
+    font-family:PTSans Narrow ;
+}
+header ul {
+    background-color: #ababab;
+    text-align:left;
+    padding-left:0;
+    margin:0;
+    margin-top:5px;
+}
+header li{
+    padding-left:5px;
+    margin: 0;
+    min-height: 40px;
+}
+header li:hover{
+    background-color:rgba(0,0,0,0.7);
+}
+.main{
+    display: none;
+}
+#drop-down-menu{
+    background:url(../img/menu.png) no-repeat ;
+    height:25px;
+    width:25px;
+    display:block;
+    background-size: cover ;
+}
+/*-----------------------------
+----------------------------
+----HEADER END--------------
+-------------------------
+-----------------------*/
+
+/*-----------------------------
+----------------------------
+---- BANNER START--------------
+-------------------------
+-----------------------*/
+.banner{
+    background: url(../img/banner_min.jpg) no-repeat  center;
+    background-size: cover ;
+    min-height:300px;
+    position:relative;
+    position:relative;
+    margin-bottom: 0;
+    font-family:PTSans Narrow bold;
+}
+.banner p{
+    display:block;
+    position: absolute;
+    margin-top:110px;
+    margin-left:30px;
+    font-size: 20px;
+    color:white;
+
+}
+.banner span{
+    font-size: 10px;
+}
+/*-----------------------------
+----------------------------
+----BANNER END--------------
+-------------------------
+-----------------------*/
+
+/*-----------------------------
+----------------------------
+----REVIEWS START--------------
+-------------------------
+-----------------------*/
+.reviews{
+    min-height: 268px;
+    width: 100%;
+    margin:20px auto;
+    text-align: center;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+}
+.nav {
+    margin:20px auto;
+    background-color:#fff59b;
+    box-shadow: -5px -5px #dfda9f ;
+    width:245px;
+    height:41px;
+    font-size:18px;
+    text-align: center;
+    padding:5px 0;
+    font-family:"PTSans Narrow bold";
+}
+
+.nav p {
+    font-family: PT+Sans+Narrow;
+}
+.review img{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin:0 auto ;
+}
+
+.review p{
+    margin:10px auto;
+    font-size:16px;
+    padding:10px;
+}
+.review img[src*="_min"]{
+    height: 31.7px;
+    width: 31.7px;
+    margin:0;
+    padding:0;
+}
+
+.review li{
+    display:inline-block;
+    margin-left:20px;
+}
+.review ul{
+    margin:0px auto;
+    clear:left;
+}
+
+/*-----------------------------
+----------------------------
+----REVIEWS END--------------
+-------------------------
+-----------------------*/
+
+/*-----------------------
+-------------------------
+--------LINK START-----
+-------------------------
+------------------------*/
+.link{
+    min-height:200px;
+    background-color: #6b4e36;
+    font-size: 18px;
+    text-align: center;
+    color:white;
+    padding:25px;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:space-around;
+}
+
+p.caption_1 {
+    font-family: PTSans Narrow;
+    margin:15px 0;
+    align-self: flex-start;
+}
+p.caption_2{
+    font-family: PTSans Narrow;
+    margin:15px 0;
+}
+
+input[type="text"]{
+    height: 30px;
+    width: 220px;
+}
+input[type="submit"]{
+    height: 30px;
+    width:  30px;
+    background-color: #fff59b;
+}
+/*-----------------------
+-------------------------
+--------LINK END-----
+-------------------------
+------------------------*/
+
+/*-----------------------
+-------------------------
+--------SERVICE START-----
+-------------------------
+------------------------*/
+.services{
+    text-align: left;
+    min-height: 340px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin:20px auto;
+    font-size:16px;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    padding:20px;
+}
+.services p{
+    margin:0 auto;
+    background-color:#fff59b;
+    box-shadow: -5px -5px #dfda9f ;
+    width:245px;
+    height:41px;
+    font-size:18px;
+    text-align: center;
+    padding:5px 0;
+    font-family:"PTSans Narrow bold";
+
+}
+.services ul{
+    list-style: square;
+    font-size:18px;
+    margin:15px auto;
+    padding: 0;
+}
+.services ul li{
+    list-style: square;
+}
+.services ol{
+    list-style: none;
+    margin:0 auto;
+    padding:0;
+}
+/*-----------------------
+-------------------------
+--------SERVICE END-----
+-------------------------
+------------------------*/
+
+/*-----------------------
+-------------------------
+--------ABOUT ME START-----
+-------------------------
+------------------------*/
+p{
+    display: block;
+    margin:0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.name{
+    font-family:"PTSans Narrow bold";
+    font-size: 20px;
+}
+.name span{
+    font-family:"PTSans Narrow ";
+    font-size: 16px;
+}
+.about_me{
+    padding:20px  auto ;
+    min-height: 246px;
+    margin:0 auto;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: space-between;
+}
+
+img[src*="_me"]{
+    border-radius: 50%;
+    width: 189.3px;
+    height: 189.3px;
+    margin: 5px auto;
+}
+
+/*-----------------------
+-------------------------
+--------ABOUT ME END-----
+-------------------------
+------------------------*/
+/*-----------------------
+-------------------------
+--------FOOTER START-----
+-------------------------
+------------------------*/
+footer{
+    padding:20px;
+    width: 100%;
+    background-color: #6b4e36;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:space-between;
+    border-bottom:2px solid black;
+    color:white;
+    margin-bottom:0;
+    font-size: 18px;
+    align-items: baseline;
+}
+footer ul{
+    display:none;
+    padding:0;
+    text-align:left;
+    list-style:none;
+    font-size:14px;
+    margin:15px;
+}
+footer li{
+    display:block;
+    margin-top:1em;
+    padding: 0;
+}footer a {
+     color:white;
+ }
+footer p{
+
+    margin-top:1em;
+}
+.service{
+    text-align: left;
+}
+.portfolio{
+    text-align: left;
+}
+.about_me_footer{
+    text-align: left;
+}
+.coll_with_me{
+    text-align: left;
+}
+/*-----------------------
+-------------------------
+--------FOOTER END-----
+-------------------------
+------------------------*/
+
+/*-------------------------
+--------MOBILE FIRTST END-
+-----------------------*/
+
+
+/*-------------------------
+--------MOBILE PLANSHED START-
+-----------------------*/
+@media screen and (min-width:768px){
+
+    /*-----------------------------
+----------------------------
+----HEADER START--------------
+-------------------------
+-----------------------*/
+    header  p {
+        font-size:25px;
+    }
+    header li a{
+        font-size:20px;
+    }
+    /*-----------------------------
+----------------------------
+----HEADER END--------------
+------------------
+-------------------------
+-----------------------*/
+
+
+    /*-----------------------------
+    ----------------------------
+    ---- BANNER START--------------
+    -------------------------
+    -----------------------*/
+    .banner {
+        min-height: 450px;
+    }
+    .banner p{
+        margin-top:250px;
+        margin-left:40px;
+        font-size: 35px;
+    }
+    .banner span{
+        font-size: 20px;
+    }
+    /*-----------------------------
+        ----------------------------
+        ---- BANNER END--------------
+        -------------------------
+        -----------------------*/
+
+    /*-----------------------------
+    ----------------------------
+    ----REVIEWS START--------------
+    -------------------------
+    -----------------------*/
+    .nav {
+        width:280px;
+        height:55px;
+        font-size:24px;
+        padding:10px 0;
+    }
+    .review img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .review p{
+        font-size:20px;
+        padding:10px;
+    }
+    .review img[src*="_min"]{
+        height: 50px;
+        width: 50px;
+    }
+
+    /*-----------------------------
+    ----------------------------
+    ----REVIEWS END--------------
+    -------------------------
+    -----------------------*/
+
+    /*-----------------------
+-------------------------
+--------LINK START-----
+-------------------------
+------------------------*/
+    .link{
+        font-size: 23px;
+    }
+
+    input[type="text"]{
+        height: 30px;
+        width: 280px;
+    }
+
+    /*-----------------------
+    -------------------------
+    --------LINK END-----
+    -------------------------
+    ------------------------*/
+
+
+    /*-----------------------
+-------------------------
+--------SERVICE START-----
+-------------------------
+------------------------*/
+    .services{
+        font-size:20px;
+    }
+    .services p{
+        width:280px;
+        height:55px;
+        font-size:25px;
+        padding:10px 0;
+
+    }
+    .services ul{
+        font-size:18px;
+    }
+    /*-----------------------
+    -------------------------
+    --------SERVICE END-----
+    -------------------------
+    ------------------------*/
+
+    /*-----------------------
+-------------------------
+--------ABOUT ME START-----
+-------------------------
+------------------------*/
+
+    img[src*="_me"]{
+        border-radius: 50%;
+        width: 189.3px;
+        height: 189.3px;
+    }
+
+    .about_me p{
+        font-size:20px;
+
+    }
+    .about_me pre {
+        font-size: 18px;
+    }
+
+    .contact_inf pre{
+        font-size: 18px;
+    }
+
+    /*-----------------------
+    -------------------------
+    --------ABOUT ME END-----
+    -------------------------
+    ------------------------*/
+}
+/*-------------------------
+--------MOBILE PLANSHED END-
+-----------------------*/
+
+@media screen and (min-width:1025px){
+    /*-----------------------------
+----------------------------
+----HEADER START--------------
+-------------------------
+-----------------------*/
+    header{
+        display:flex;
+        flex-flow:row nowrap;
+        justify-content: space-between;
+        min-height: 101px;
+        border-bottom: 1px solid black;
+    }
+    header span{
+        font-size: 14px;
+    }
+    header  p {
+        margin:30px 0px 25px 38px;
+        font-size: 20px;
+    }
+    header li a{
+        display:inline;
+        font-size: 20px;
+    }
+    header ul {
+        background-color:white;
+        margin:58px 37px 35px 0px;
+        font-size: 14px;
+        padding: 0;
+        text-align:center;
+    }
+    header li{
+        display:inline-block;
+        margin-left:37px;
+        height: 0;
+        min-height: 20px;
+    }
+    header li:hover{
+        background-color:white;
+    }
+    .main{
+        display:block;
+    }
+    #drop-down-menu{
+        display:none;
+    }
+     header span{
+         font-size: 14px;
+     }
+    /*-----------------------------
+----------------------------
+----HEADER END--------------
+-------------------------
+-----------------------*/
+
+    /*-----------------------------
+----------------------------
+---- BANNER START--------------
+-------------------------
+-----------------------*/
+    .banner{
+        background: url(../img/banner.jpg) no-repeat  center fixed;
+        height:586px;
+        width:100%;
+        margin:0;
+        background-size: cover;
+        border-bottom: 2px solid black;
+    }
+    .banner p{
+        margin:288px 0px 223px  53px;
+        border-bottom: 2px solid white;
+        font-size: 36px;
+
+    }
+    .banner span{
+        font-size: 20px;
+    }
+    /*-----------------------------
+    ----------------------------
+    ----BANNER END--------------
+    -------------------------
+    -----------------------*/
+
+    /*-----------------------------
+----------------------------
+----REVIEWS START--------------
+-------------------------
+-----------------------*/
+    .reviews{
+        min-height: 268px;
+        margin:20px auto;
+        text-align: left;
+    }
+    .nav {
+        margin:25px 0px 10.5px 14.7px;
+        font-size:20px;
+        text-align: left;
+        padding:0;
+    }
+    .nav p {
+        margin: 10px 53px 10px 21px;
+    }
+    .review img{
+        float:left;
+        width: 130px;
+        height: 130px;
+        margin:0 auto ;
+        margin:0 17.3px 63.8px 56px ;
+    }
+
+    .review p{
+        margin:22.6px 21px 25.3px 22px;
+        font-size:18px;
+        padding:0;
+        float:left;
+    }
+    .review img[src*="_min"]{
+        height: 31.7px;
+        width: 31.7px;
+        margin:0;
+        padding:0;
+    }
+
+    .review li{
+        display:inline-block;
+        margin-left:20px;
+    }
+    .review ul{
+        margin:0px 0px 24.5px 226.7px;
+    }
+
+    /*-----------------------------
+    ----------------------------
+    ----REVIEWS END--------------
+    -------------------------
+    -----------------------*/
+
+    /*-----------------------
+-------------------------
+--------LINK START-----
+-------------------------
+------------------------*/
+    .link{
+        min-height:74px;
+        background-color: #6b4e36;
+        text-align: center;
+        color:white;
+        padding:25px;
+        display:flex;
+        flex-flow:row nowrap;
+        justify-content:space-between;
+        padding:32px 37px;
+    }
+
+    p.caption_1 {
+        margin:0;
+    }
+    p.caption_2{
+        margin:0;
+    }
+
+    input[type="text"]{
+        height: 30px;
+        width: 259px;
+    }
+
+    /*-----------------------
+    -------------------------
+    --------LINK END-----
+    -------------------------
+    ------------------------*/
+
+
+    /*-----------------------
+-------------------------
+--------SERVICE START-----
+-------------------------
+------------------------*/
+    .services{
+        display:flex;
+        flex-flow:column wrap;
+        justify-content: space-between;
+        padding:20px;
+    }
+    .services p{
+        margin:32px 0 0 15px;
+        font-size:20px;
+        text-align: left;
+        padding-left:15px;
+
+    }
+    .services ul{
+        float:left;
+        font-size:18px;
+        margin:32px 82.7px 144px 38px;
+        padding: 0;
+    }
+    .services ul li:first-child{
+        color:yellow;
+    }
+    .services ol{
+        font-size:18px;
+        float:left;
+        margin:32px 93px 22px 0;
+    }
+    /*-----------------------
+    -------------------------
+    --------SERVICE END-----
+    -------------------------
+    ------------------------*/
+
+    /*-----------------------
+-------------------------
+--------ABOUT ME START-----
+-------------------------
+------------------------*/
+    p{
+        float:left;
+        display: inline;
+        clear:right;
+        margin: 24px 186px 29px 25px;
+        text-align:left;
+    }
+    .name{
+        display: inline;
+        font-family:"PTSans Narrow bold";
+        font-size: 20px;
+    }
+    .contacts{
+        display: inline;
+    }
+    .name span{
+        font-family:"PTSans Narrow ";
+        font-size: 16px;
+    }
+    .about_me{
+        padding:20px  auto ;
+        min-height: 246px;
+        margin:0 auto;
+        display:block;
+    }
+    img[src*="_me"]{
+        float:left;
+    }
+    /*-----------------------
+    -------------------------
+    --------ABOUT ME END-----
+    -------------------------
+    ------------------------*/
+    footer{
+        padding:20px;
+        width: 100%;
+        background-color: #6b4e36;
+        display:flex;
+        flex-flow:row wrap;
+        justify-content:space-around;
+        align-content: center;
+        border-bottom:2px solid black;
+        align-items: baseline;
+    }
+    footer ul{
+        display:block;
+        padding:0;
+        text-align:left;
+        list-style:none;
+        font-size:14px;
+        margin:25px;
+    }
+    footer li{
+        display:block;
+        margin-top:1em;
+        padding: 0;
+    }footer a {
+         color:white;
+     }
+    footer p{
+
+        margin-top:1em;
+    }
+}
+
+
