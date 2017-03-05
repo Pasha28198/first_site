@@ -156,8 +156,8 @@ header li:hover{
     padding:10px;
 }
 .review img[src*="_min"]{
-    height: 31.7px;
-    width: 31.7px;
+    height: 32px;
+    width: 32px;
     margin:0;
     padding:0;
 }
@@ -298,8 +298,8 @@ p{
 
 img[src*="_me"]{
     border-radius: 50%;
-    width: 189.3px;
-    height: 189.3px;
+    width: 189px;
+    height: 189px;
     margin: 5px auto;
 }
 
@@ -498,8 +498,8 @@ footer p{
 
     img[src*="_me"]{
         border-radius: 50%;
-        width: 189.3px;
-        height: 189.3px;
+        width: 189px;
+        height: 189px;
     }
 
     .about_me p{
@@ -618,7 +618,7 @@ footer p{
         text-align: left;
     }
     .nav {
-        margin:25px 0px 10.5px 14.7px;
+        margin:25px 0px 10px 15px;
         font-size:20px;
         text-align: left;
         padding:0;
@@ -631,18 +631,18 @@ footer p{
         width: 130px;
         height: 130px;
         margin:0 auto ;
-        margin:0 17.3px 63.8px 56px ;
+        margin:0 17px 64px 56px ;
     }
 
     .review p{
-        margin:22.6px 21px 25.3px 22px;
+        margin:23px 21px 25px 22px;
         font-size:18px;
         padding:0;
         float:left;
     }
     .review img[src*="_min"]{
-        height: 31.7px;
-        width: 31.7px;
+        height: 32px;
+        width: 32px;
         margin:0;
         padding:0;
     }
