@@ -97,6 +97,7 @@ header li:hover{
     font-family:PTSans Narrow bold;
 }
 .banner p{
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.5) ;
     display:block;
     position: absolute;
     margin-top:110px;
